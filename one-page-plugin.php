@@ -45,7 +45,7 @@ class OnePage_Manager {
 	 */
 	function get_settings() {
 		$defaults = array(
-			'menu_name'        => __( 'One Page Layout', 'one-page' ),
+			'menu-name'        => __( 'One Page Layout', 'one-page' ),
 			//'max_pages'        => 5, // Can we enforce this in the Menu UI?
 			'posts-template'   => 'content',
 			'custom-format'    => '<div id="%1$s" class="hentry custom"><h1 class="entry-title"><a href="%2$s">%3$s</a></h1> <div class="entry-summary"><p>%4$s</p></div></div>',
@@ -72,11 +72,11 @@ class OnePage_Manager {
 
 		$args = $this->get_settings();
 
-		$slug = sanitize_key( $args['menu_name'] );
+		$slug = sanitize_key( $args['menu-name'] );
 
 		// Register the theme-defined menu
 		register_nav_menus( array(
-			$slug => $args['menu_name']
+			$slug => $args['menu-name']
 		) );
 	}
 
@@ -88,7 +88,7 @@ class OnePage_Manager {
 		if ( ! $args || ! is_array( $args ) ) {
 			return;
 		}
-		$slug = sanitize_key( $args['menu_name'] );
+		$slug = sanitize_key( $args['menu-name'] );
 		if ( ! has_nav_menu( $slug ) ) {
 			return;
 		}

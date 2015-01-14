@@ -8,7 +8,7 @@ This is a plugin for theme developers. When used with the Menu Customizer, it gi
 Set up via `add_theme_support`. Here are the defaults:
 
 	add_theme_support( 'one-page-layout', array(
-		'menu_name'        => __( 'One Page Layout', 'one-page' ),
+		'menu-name'        => __( 'One Page Layout', 'one-page' ),
 		'posts-template'   => 'content',
 		'custom-format'    => '<div id="%1$s" class="hentry custom"><h1 class="entry-title"><a href="%2$s">%3$s</a></h1> <div class="entry-summary"><p>%4$s</p></div></div>',
 		'archive-template' => 'content',
