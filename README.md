@@ -3,6 +3,8 @@ One Page Layouts
 
 This is a plugin for theme developers. When used with the Menu Customizer, it gives you a way to manage a "one-page" site of content blocks in the customizer.
 
+### How to set up (in code)
+
 Set up via `add_theme_support`. Here are the defaults:
 
 	add_theme_support( 'one-page-layout', array(
@@ -20,6 +22,10 @@ Since menus can contain posts, pages, taxonomy archives, and custom links, the c
 Taxonomy archives are trickier. They're wrapped in `archive-before` and `archive-after`. The placeholders in `archive-before` are 1: an ID, 2: the taxonomy being displayed, 3: the name of this taxonomy. Each post in the archive is displayed with `archive-template` (content.php, again). It'll only display `archive-count` posts. Note: does not take into account non-post post types.
 
 Lastly, custom links are output from a format string; 1: an ID, 2: the URL, 3: link title, and 4: description.
+
+### How to set up (in WordPress)
+
+Create a new menu with the pages/posts/categories etc that you want on your front page. Set this menu to the "One Page Layout" menu location (theme devs can rename this).
 
 ### Displaying your layout
 
