@@ -37,4 +37,4 @@ If you're using [Menu Customizer](https://github.com/voldemortensen/menu-customi
 
 ### Try it out
 
-Download ["One Page Aventurine"](https://cloudup.com/c-lWHaRqnUX), a child theme of [Aventurine](https://wordpress.org/themes/aventurine), a quick proof-of-concept for how to use this in a theme.
+Download ["One Page Aventurine"](https://cloudup.com/cMikaM9p2Oa), a child theme of [Aventurine](https://wordpress.org/themes/aventurine), a quick proof-of-concept for how to use this in a theme.
