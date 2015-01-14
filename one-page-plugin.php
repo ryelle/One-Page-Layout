@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: One Page Plugin
+ * Plugin Name: One Page Layout
  * Description: Create and manage your one-page site's sections via the Customizer.
  * Best with Menu Customizer plugin
  */
