@@ -28,3 +28,7 @@ Use this function in your template, most likely front-page.php, instead of the l
 	<?php onepage_layout(); ?>
 
 If you're using [Menu Customizer](https://github.com/voldemortensen/menu-customizer), you can jump into the customizer and add/manage items in the menu, and see your changes in real-time.
+
+### Try it out
+
+Download ["One Page Aventurine"](https://cloudup.com/c-lWHaRqnUX), a child theme of [Aventurine](https://wordpress.org/themes/aventurine), a quick proof-of-concept for how to use this in a theme.
